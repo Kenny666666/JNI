@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:stretchColumns="0,1,2" android:shrinkColumns="1,2">
+	<TextView android:text="SANNUO CAR SYSTEM" android:gravity="center" 
+	android:textSize="30dp"
+	/>
+	<TableRow>
+		<TextView android:text="转速" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a1"/>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="车速" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a2"/>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="水温" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a3"/>
+	</TableRow>
+		<TableRow>
+		<TextView android:text="节气门" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a4"/>
+	</TableRow>
+		<TableRow>
+		<TextView android:text="胎压" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a5" />
+	</TableRow>
+		<TableRow>
+		<TextView android:text="油量" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a6"/>
+	</TableRow>
+		<TableRow>
+		<TextView android:text="油耗" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a7"/>
+	</TableRow>
+		<TableRow>
+		<TextView android:text="剩余油量" android:gravity="left" />
+		<TextView android:text="" android:gravity="right" android:id="@+id/a8"/>
+	</TableRow>
+</TableLayout>

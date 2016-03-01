@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传递两个int给c代码" />
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传递string给c代码" />
+
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传递int数组给c代码" />
+    <Button
+        android:id="@+id/bt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用静态native方法" />
+</LinearLayout>
